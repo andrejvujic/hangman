@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hangman</title>
+  </head>
+  <body>
+    <div class="main-game">
+      <div class="main-game-image">
+        <img src="assets/images/stickman01.png" width="300" alt="" />
+        <div class="main-game-text"></div>
+        <div class="main-game-wrong">
+          <p class="game-wrong-char">Netačna slova:</p>
+          <p class="game-nowrong-char">nema netačnih slova</p>
+        </div>
+      </div>
+      <div class="main-game-keyboard"></div>
+
+      <div class="main-game-audio">
+        <audio class="win-audio" src="assets/sounds/win.mp3" hidden></audio>
+        <audio
+          class="correct-audio"
+          src="assets/sounds/correct.mp3"
+          hidden
+        ></audio>
+        <audio class="loss-audio" src="assets/sounds/loss.mp3" hidden></audio>
+        <audio class="wrong-audio" src="assets/sounds/wrong.mp3" hidden></audio>
+      </div>
+    </div>
+  </body>
+</html>

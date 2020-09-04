@@ -1,0 +1,101 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.main-game-image img {
+  margin: 15px;
+}
+
+.main-game-text {
+  font-size: 26px;
+  margin: 15px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.main-game-wrong {
+  font-size: 26px;
+  margin: 15px;
+  display: flex;
+  flex-flow: row wrap;
+  color: red;
+}
+
+.game-text-char {
+  margin: 10px;
+}
+
+.game-wrong-char,
+.game-nowrong-char {
+  margin: 10px;
+}
+
+.main-game-keyboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.keyboard-key {
+  font-size: 26px;
+  margin: 15px;
+  padding: 5px;
+  width: 7%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7%;
+}
+
+.refresh-button {
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+  outline: none;
+}
+
+.refresh-button:hover,
+.clickable:hover {
+  background: rgb(235, 235, 235);
+}
