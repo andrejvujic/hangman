@@ -5,6 +5,7 @@ Required files:
 - app.js
 - index.html
 - style.css
+- assets folder (stickman images and game sounds)
 
 How-to-play:
 - The goal is to guess a randomly generated European capital
